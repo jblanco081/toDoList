@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background: #ffffff;
+    background: #001f3f; /* Navy Blue */
     padding: 20px 30px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -22,7 +22,7 @@ body {
 h1 {
     margin-bottom: 20px;
     font-weight: 700;
-    color: #00796b;
+    color: #ffffff;
     font-size: 24px;
 }
 
@@ -43,18 +43,18 @@ h1 {
 
 button {
     padding: 12px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #ffffff; /* White */
+    color: #001f3f; /* Navy Blue Text */
     border: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
     margin-top: 10px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f1f1f1;
 }
 
 ul {
@@ -106,5 +106,5 @@ li.completed {
 
 .task-details {
     font-size: 0.9em;
-    color: #00796b;
+    color: #001f3f;
 }
