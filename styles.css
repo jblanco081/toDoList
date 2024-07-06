@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f4f8;
+    background-color: #e0f7fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 h1 {
     margin-bottom: 20px;
     font-weight: 700;
-    color: #333;
+    color: #00796b;
     font-size: 24px;
 }
 
@@ -64,7 +64,7 @@ ul {
 }
 
 li {
-    background: #f9f9f9;
+    background: #ffffff;
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 10px;
@@ -106,5 +106,5 @@ li.completed {
 
 .task-details {
     font-size: 0.9em;
-    color: #666;
+    color: #00796b;
 }

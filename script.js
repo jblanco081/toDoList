@@ -16,7 +16,7 @@ document.getElementById('addTask').addEventListener('click', function() {
         <div class="task-details">
             <p>Created: ${creationDate}</p>
             <p>Priority: ${priorityInput}</p>
-            <p>Due: ${dueDateInput ? dueDateInput : 'No due date'}</p>
+            <p>Due: ${dueDateInput ? dueDateInput : 'Due date'}</p>
         </div>
     `;
     task.className = 'task';
