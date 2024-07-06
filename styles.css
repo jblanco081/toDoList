@@ -1,19 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f7f9fc;
+    background-color: #f0f4f8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 0 20px;
 }
 
 .container {
-    background: #fff;
+    background: #ffffff;
     padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
     text-align: center;
 }
 
@@ -21,6 +23,7 @@ h1 {
     margin-bottom: 20px;
     font-weight: 700;
     color: #333;
+    font-size: 24px;
 }
 
 .input-container {
@@ -31,22 +34,23 @@ h1 {
 }
 
 #taskInput, #priorityInput, #dueDateInput {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
     font-size: 16px;
     width: 100%;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
 
 button:hover {
@@ -66,7 +70,7 @@ li {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 6px;
     transition: background-color 0.3s ease;
 }
 
@@ -90,8 +94,8 @@ li.completed {
     background: #dc3545;
     color: white;
     border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
+    border-radius: 6px;
+    padding: 6px 12px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
